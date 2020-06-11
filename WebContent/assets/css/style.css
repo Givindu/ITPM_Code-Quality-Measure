@@ -1,0 +1,13 @@
+textarea{
+ 	height: 450px;
+    overflow: scroll;
+    line-height: 13px;
+    font-family: monospace;
+    outline: none;
+    margin-left: 13%;
+}
+
+select.select{
+	width: 79.5%;
+}
+
