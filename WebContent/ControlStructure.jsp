@@ -101,7 +101,7 @@
 						
 					<div class="form-group">
 			  			<select class="form-control col-8 " id="selectDiv" name="selectFactor" onchange="viewDiv()">
-			  				<option >Select(required*)</option>
+			  				<option >Select (required*)</option>
 			  				<option value="controlStructure">Control Structure Factor</option>
 			  				
 			  			</select>
