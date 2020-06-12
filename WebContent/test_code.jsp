@@ -101,10 +101,11 @@
 						
 					<div class="form-group">
 			  			<select class="form-control col-8 " id="selectDiv" name="selectFactor" onchange="viewDiv()">
+			  				<option >Select</option>
 			  				<option value="size">Size Factor</option>
 			  				<option value="variable">Variable Factor</option>
 			  				<option value="method">Method Factor</option>
-			  				<option value="all">All The Factor</option>
+			  				
 			  				
 			  			</select>
 		  			</div>
@@ -127,7 +128,7 @@
 	  </div>
 	  
 	  		<div style="align-content: center;">
-	  	<div class="col" style="margin-left: 291px; color: #FFFAFA;">
+	  	<div class="col" style="margin-left: 235px; color: #FFFAFA;">
 	  		<div class="border">
 		  		<div class="p-2" style="height: 490px;max-height:75%;overflow-y: scroll; color: #FFFAFA;">
 				

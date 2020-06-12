@@ -48,7 +48,8 @@
 		</div>
 	</section>
 	<h1
-			style="color: #FFFAFA; font-size: 64px; text-align: center; margin-top: -41px;">Size,Variable,Method</h1>
+			style="color: #FFFAFA; font-size: 64px; text-align: center; margin-top: -41px;">All
+				Factors</h1>
 
 		<div style="text-align: center;">
 			<a class="btn btn-primary" href="test_code.jsp" role="button">Size,Variable,Method</a>
