@@ -100,7 +100,7 @@
 						
 					<div class="form-group">
 			  			<select class="form-control col-8 " id="selectDiv" name="selectFactor" onchange="viewDiv()">
-			  			    <option >Select</option>
+			  			    <option >Select(required*)</option>
 			  				<option value="coupling">Coupling Factor</option>
 			  				
 			  			</select>

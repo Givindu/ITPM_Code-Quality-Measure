@@ -99,9 +99,9 @@
 					</select>
 					<label for="complexity" style="margin-right: 648px;">Complexity Type :</label> 
 						
-					<div class="form-group">
-			  			<select class="form-control col-8 " id="selectDiv" name="selectFactor" onchange="viewDiv()">
-			  				<option >Select</option>
+					<div class="form-group" >
+			  			<select class="form-control col-8 " id="selectDiv" name="selectFactor" onchange="viewDiv()" required>
+			  				<option >Select(required*)</option>
 			  				<option value="size">Size Factor</option>
 			  				<option value="variable">Variable Factor</option>
 			  				<option value="method">Method Factor</option>
