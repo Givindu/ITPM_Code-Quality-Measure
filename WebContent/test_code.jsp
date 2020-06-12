@@ -34,7 +34,8 @@
  
 </head>
 
-<body class="body">
+<body class="body" >
+
 		<!--Header section-->
 	<section>
 		<div class="header-container justify">
@@ -64,7 +65,7 @@
 	
 	<div class="container">
 	<br>
-	  
+	  <div style="">
 	  
   	<form action="code_tool_servlet" method="post">
   	 		<div style="text-align: center; color: white;">
@@ -103,6 +104,7 @@
 			  				<option value="size">Size Factor</option>
 			  				<option value="variable">Variable Factor</option>
 			  				<option value="method">Method Factor</option>
+			  				<option value="all">All The Factor</option>
 			  				
 			  			</select>
 		  			</div>
@@ -124,7 +126,7 @@
 			</hr>
 	  </div>
 	  
-	  		
+	  		<div style="align-content: center;">
 	  	<div class="col" style="margin-left: 291px; color: #FFFAFA;">
 	  		<div class="border">
 		  		<div class="p-2" style="height: 490px;max-height:75%;overflow-y: scroll; color: #FFFAFA;">
@@ -646,7 +648,7 @@
   	</form>
 <br>
 
-
+</div>
 		<!--Results viewer-->
 		<br> <br>
 	</div>

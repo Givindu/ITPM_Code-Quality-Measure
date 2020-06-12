@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>Measuring Tool</title>
+	<title>Code Quality Measure</title> 
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"> 
 	<link rel="stylesheet" href="../ComplexityMTool/assets/css/bootstrap.min.css">
@@ -31,7 +31,7 @@
 
 <link rel="stylesheet" type="text/css" href="CSS/main.css">
 <link rel="stylesheet" href="CSS/style.css" />	
-<title>Code Quality Measure</title> 
+ 
 </head>
 
 <body class="body">
@@ -45,18 +45,17 @@
 				<h1 class="heading" style="text-align: center;">Code Quality
 					Measure</h1>
 			</header>
-
 		</div>
 	</section>
 	<h1
 			style="color: #FFFAFA; font-size: 64px; text-align: center; margin-top: -41px;">Size,Variable,Method</h1>
 
 		<div style="text-align: center;">
-			<a class="btn btn-primary" href="index.jsp" role="button">Size,Variable,Method</a>
+			<a class="btn btn-primary" href="test_code.jsp" role="button">Size,Variable,Method</a>
 			<a class="btn btn-primary" href="ControlStructure.jsp" role="button">Control
 				Structures</a> <a class="btn btn-primary" href="Inheritance.jsp"
 				role="button">Inheritance</a> <a class="btn btn-primary"
-				href="FileUpload.jsp" role="button">Coupeling</a> <a
+				href="Coupeling.jsp" role="button">Coupeling</a> <a
 				class="btn btn-primary" href="AllFactors.jsp" role="button">All
 				Factors</a>
 		</div>
@@ -101,7 +100,9 @@
 						
 					<div class="form-group">
 			  			<select class="form-control col-8 " id="selectDiv" name="selectFactor" onchange="viewDiv()">
-			  				<option value="inheritance">Inheritance Factor</option>
+			  			    <option >Select</option>
+			  				<option value="all">All The Factor</option>
+			  				
 			  			</select>
 		  			</div>
 				</div>
