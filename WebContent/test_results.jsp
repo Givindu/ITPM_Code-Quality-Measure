@@ -101,7 +101,7 @@ a:hover:not (.active ) {
 		  			<br>
 		  					
 		  			<br>
-		  		<h1 class="display-1"	style="padding-left: 178px; margin-left: 100px; font-family: century gothic; font-size: 50px; margin-top: 10px">
+		  		<h1 class="display-1"	style="text-align: center; margin-left: 100px; font-family: century gothic; font-size: 50px; margin-top: 10px">
 				<font color="#00376c">Complexity of Size</font>
 				</h1>
 					<br><br>
@@ -154,7 +154,7 @@ a:hover:not (.active ) {
 		  			<br>
 		  					
 		  			<br>
-		  		<h1 class="display-1"	style="padding-left: 178px; margin-left: 100px; font-family: century gothic; font-size: 50px; margin-top: 10px">
+		  		<h1 class="display-1"	style="text-align: center; margin-left: 100px; font-family: century gothic; font-size: 50px; margin-top: 10px">
 				<font color="#00376c">Complexity of Variables</font>
 				</h1>
 					<br><br>
@@ -202,7 +202,7 @@ a:hover:not (.active ) {
 		  			<br>
 		  					
 		  			<br>
-		  		<h1 class="display-1"	style="padding-left: 178px; margin-left: 100px; font-family: century gothic; font-size: 50px; margin-top: 10px">
+		  		<h1 class="display-1"	style="text-align: center; margin-left: 100px; font-family: century gothic; font-size: 50px; margin-top: 10px">
 				<font color="#00376c">Complexity of Methods</font>
 				</h1>
 					<br><br>
@@ -251,7 +251,7 @@ a:hover:not (.active ) {
 		  			<div id="structureFactor">
 		  			
 		  			<br>
-		  		<h1 class="display-1"	style="padding-left: 178px; margin-left: 100px; font-family: century gothic; font-size: 50px; margin-top: 10px">
+		  		<h1 class="display-1"	style="text-align: center; margin-left: 100px; font-family: century gothic; font-size: 50px; margin-top: 10px">
 				<font color="#00376c">Complexity of Control Structure</font>
 				</h1>
 					<br><br>
@@ -298,7 +298,7 @@ a:hover:not (.active ) {
 		  			<br>
 		  					
 		  			<br>
-		  		<h1 class="display-1"	style="padding-left: 178px; margin-left: 100px; font-family: century gothic; font-size: 50px; margin-top: 10px">
+		  		<h1 class="display-1"	style="text-align: center; margin-left: 100px; font-family: century gothic; font-size: 50px; margin-top: 10px">
 				<font color="#00376c">Complexity of Inheritance</font>
 				</h1>
 					<br><br>
@@ -353,11 +353,11 @@ a:hover:not (.active ) {
 		  			<br>
 		  					
 		  			<br>
-		  		<h1 class="display-1"	style="padding-left: 178px; margin-left: 100px; font-family: century gothic; font-size: 50px; margin-top: 10px">
+		  		<h1 class="display-1"	style="text-align: center;s margin-left: 100px; font-family: century gothic; font-size: 50px; margin-top: 10px">
 				<font color="#00376c">Complexity of Coupling</font>
 				</h1>
 					<br><br>
-		  				<table style="width: 78%; margin-left: 160px; background-color: #fff; " class="table table-bordered">
+		  				<table style="width: 78%; margin-left: 30px; background-color: #fff; " class="table table-bordered">
   							
 			  					<tr>
 			  						<th>Line no</th>
