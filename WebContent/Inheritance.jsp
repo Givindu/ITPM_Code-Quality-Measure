@@ -123,9 +123,9 @@
 			</div>	
 			</hr>
 	  </div>
-	  
+	  <br><br>
 	  	<div style="align-content: center;">	
-	  	<div class="col" style="margin-left: 291px; color: #FFFAFA;">
+	  	<div class="col" style="margin-left: 172px; color: #FFFAFA;">
 	  		<div class="border">
 		  		<div class="p-2" style=" height: 375px; max-height:75%; overflow-y: scroll; color: #FFFAFA;">
 				

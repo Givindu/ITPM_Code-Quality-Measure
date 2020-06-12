@@ -126,7 +126,7 @@
 			</div>	
 			</hr>
 	  </div>
-	  
+	  <br><br>
 	  		<div style="align-content: center;">
 	  	<div class="col" style="margin-left: 172px; color: #FFFAFA;">
 	  		<div class="border">
