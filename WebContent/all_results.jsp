@@ -14,70 +14,92 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
+	
+	
+	<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+	integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+	crossorigin="anonymous"></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+	crossorigin="anonymous"></script>
+<script
+	src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+	crossorigin="anonymous"></script>
+	
+	
+	
+	
+	
+	<style>
+table, td, th {
+	border: 1px solid black;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+th {
+	height: 50px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2c2e2d;
+	font-size: 25px;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li
+a:hover:not (.active ) {
+	background-color: #f2f5f4;
+}
+</style>
+	
+	
+	
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg bg-dark">
-  		<a class="navbar-brand font-weight-bold text-light">Code Complexity Measuring Tool</a>
-  		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button> 
-	
-	  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-	    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-	
-	      <li class="nav-item">
-	        <a class="nav-link" href="#" tabindex="-1" data-toggle="modal" data-target="#myModal-write-to-us" ></a>
-	      </li>
-	    </ul>
-	
-		<ul class="navbar-nav  mt-2  ">
-		    <span>&nbsp &nbsp</span>
-	        <li class="nav-item">
-		        <a class="nav-link font-weight-bold text-light" href="index.jsp" data-toggle="modal">Home</a>
-	        </li>
-	        <li class="nav-item">
-		        <a class="nav-link font-weight-bold text-light" href="index.jsp" data-toggle="modal">Log Out</a>
-	        </li>
-	      </ul>
-	  </div>
-	</nav>
-		
-	<div class="container">
-	<br>
-	  <div class="row">
-	  	<div class="col">
-	  	
-	  	<div class="form-group">
-				<button type="button" class="btn btn-outline-primary float-left" id="ofiles" onclick="clicks()">Open File</button>
-		</div>			
-	  	</div>
-	  	<div class="col">
-			  <div class="form-group">
-				<button type="button" class="btn btn-outline-primary float-right" onClick="location.href='test_code.jsp'">Change Weight</button>
-			</div>  
-	  	</div>
-  	</div>
-  	<br>
+
+
+	<ul>
+		<li><a href="test_code.jsp">Home</a></li>
+	</ul>
+
   	
-<form action="test_code.jsp">
-  	<div class="row">
-	  	<div class="col">
-			<div class="form-group">
-	  			<textarea rows="20" cols="6" class="form-control" name="test_code" required><%=session.getAttribute("test_code").toString() %></textarea>
-	  		</div>
-		<!-- <div class="form-group">
-				<button type="button" class="btn btn-outline-primary float-left" id="ofiles" onclick="clicks()">Open File</button>
-				<input type="file" class="d-none" id="attachment" accept=".java">
-		</div> -->
-	  	</div>
-	  	<div class="col">
-	  		<div class="border">
-		  		<div class="p-2" style="height: 490px;max-height:75%;overflow-y: scroll;">
+
+		  		
 		  			<div id="sizeFactor">
 		  			<br>
-		  				<h5 align="center">complexity of a program due to all the factors</h5>
-		  				<table class="table">
-  							<thead class="thead-light">
+		  				<h1 class="display-1"	style="padding-left: 178px; margin-left: 100px; font-family: century gothic; font-size: 50px; margin-top: 10px">
+				<font color="#00376c">Complexity of All Factors</font>
+				</h1>
+				<br>
+		  				<table style="width: 78%; margin-left: 160px; background-color: #fff; " class="table table-bordered">
+  							
 			  					<tr>
 			  						<th>Line no</th>
 			  						<th>Program statements</th>
@@ -206,144 +228,10 @@
 			  				</tbody>
 		  				</table>
 		  			</div>
-		  		</div>
-	  		</div>
-	  		<br>
-  			<div class="form-group">
-  				<input type="submit" class="btn btn-outline-primary float-right" value="Calculate" style="width:250px;margin-right:220px;">
-  			</div>
-	  	</div>
-	  </div>
-  	</div>
-  	</form>
-  	
+		  		
+
   	<br>
-<!-- Footer -->
-<footer class="page-footer font-small bg-dark pt-4">
 
-  <!-- Footer Links -->
-  <div class="container text-center text-md-left">
-
-    <!-- Footer links -->
-    <div class="row text-center text-md-left mt-3 pb-3">
-
-      <!-- Grid column -->
-      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold text-light">About us</h6>
-        <p class=" text-light">What we're about
-	        Complexity of a code base is a measure of the quality of the code that the programmer writes it help to see vulnerabilities, 
-	        duplication happen in code and help to reduce the redeclaration of variables in a program. 
-	        
-	    </p>
-      </div>
-      <!-- Grid column -->
-
-      <hr class="w-100 clearfix d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold text-light">Products</h6>
-        <p>
-          <a href="https://dzone.com/articles/measuring-code-complexity">Cyclomatic Complexity</a>
-        </p>
-        <p>
-          <a href="https://doc-archives.microstrategy.com/producthelp/10.7/AdvancedReportingGuide/WebHelp/Lang_1033/Content/AdvancedReporting/Creating_a_conditional_metric.htm">Conditional Metrics</a>
-        </p>
-        <p>
-          <a href="https://www.verifysoft.com/en_linesofcode_metrics.html">Lines of Code Metrics</a>
-        </p>
-        <p>
-          <a href="https://www.verifysoft.com/en_halstead_metrics.html">Halstead Metrics</a>
-        </p>
-      </div>
-      <!-- Grid column -->
-
-      <hr class="w-100 clearfix d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold text-light">Useful links</h6>
-        <p>
-		  <a href="https://stackoverflow.com/questions/2370288/is-there-any-sizeof-like-method-in-java/">Size</a>
-		</p> 
-        <p>
-		 <a href="https://www.cprogramming.com/tutorial/java/syntax-differences-java-c++.html/">Methods</a>
-		</p>
-        <p>
-          <a href="https://www.quora.com/What-is-the-difference-between-C-and-Java-with-variables/">Variables</a>
-        </p>
-        <p>
-          <a href="https://www.geeksforgeeks.org/inheritance-in-java/">Inheritance</a>
-        </p>
-        <p>
-          <a href="https://www.interviewsansar.com/loose-coupling-and-tight-coupling-in-java/">Coupling</a>
-        </p>
-        <p>
-          <a href="https://www.informit.com/articles/article.aspx?p=1321841&seqNum=2/">Control Structure</a>
-        </p>
-      </div>
-
-      <!-- Grid column -->
-      <hr class="w-100 clearfix d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold text-light">Contact</h6>
-        <p class="text-light">
-          <i class="fa fa-home" aria-hidden="true"></i> SLIIT,Malabe, Kandy Road</p>
-        <p class="text-light">
-          <i class="fa fa-envelope-o" aria-hidden="true"></i> StudentInfo@gmail.com</p>
-        <p class="text-light">
-          <i  class="fa fa-phone" aria-hidden="true"></i> + 94 11 234 567 88</p>
-        <p class="text-light">
-          <i class="fa fa-print" aria-hidden="true"></i> + 94 11 234 567 89</p>
-      </div>
-      <!-- Grid column -->
-
-    </div>
-    <!-- Footer links -->
-
-    <hr>
-
-    <!-- Grid row -->
-    <div class="row d-flex align-items-center">
-
-      <!-- Grid column -->
-      <div class="col-md-7 col-lg-8">
-
-        <!--Copyright-->
-        <p class="text-center text-md-left text-light" >© 2020 Copyright : Code Complexity Measuring Tool
-          </a>
-        </p>
-      </div>
-      
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-      <div class="col-md-5 col-lg-4 ml-lg-0">
-
-        <!-- Social buttons -->
-        <div class="text-center text-md-right">
-          <ul>
-          <li class="socialMedia "><a href="#"  ><i class="fa fa-facebook"></i></a></li>
-          <li class="socialMedia"><a href="#"  ><i class="fa fa-twitter"></i></a></li>
-          <li class="socialMedia"><a href="#"  ><i class="fa fa-linkedin"></i></a></li>
-          <li class="socialMedia"><a href="#"  ><i class="fa fa-instagram"></i></a></li>
-          <li class="socialMedia"><a href="#"  ><i class="fa fa-pinterest"></i></a></li>
-          </ul>
-        </div>
-
-      </div>
-      <!-- Grid column -->
-
-    </div>
-    <!-- Grid row -->
-
-  </div>
-  <!-- Footer Links -->
-
-</footer>
-<!-- Footer -->
   	
 </body>
 </html>
